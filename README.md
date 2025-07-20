@@ -1,10 +1,10 @@
-# 🩺 Liver Disease Prediction using ML
+# Liver Disease Prediction using ML
 
 This project predicts liver disease using ML models on the Indian Liver Patient Dataset (ILPD). It uses preprocessing, feature selection, SMOTE, and compares various classifiers — with the best results from a stacking ensemble model.
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Source**: UCI ILPD
 - **Instances**: 583 (after cleaning: 580)
 - **Features**: 11 → top features selected using ElasticNet
@@ -12,7 +12,7 @@ This project predicts liver disease using ML models on the Indian Liver Patient 
 
 ---
 
-## ⚙️ ML Pipeline
+## ML Pipeline
 - Preprocessing: Missing value handling, outlier removal, encoding, scaling
 - SMOTE for balancing classes
 - Feature Selection: Elastic Net
@@ -20,7 +20,7 @@ This project predicts liver disease using ML models on the Indian Liver Patient 
 
 ---
 
-## ✅ Best Result (Stacking Classifier)
+## Best Result (Stacking Classifier)
 - **Accuracy**: 80%
 - **Precision**: 90%
 - **Recall**: 80%
